@@ -36,7 +36,4 @@ def draw_line(speedline,colours,m):
                 pointlist.append([latitude,longitude])
             draw_line = folium.PolyLine(locations=pointlist, weight=4, color=colour).add_to(m)
 
-
-
-
             
